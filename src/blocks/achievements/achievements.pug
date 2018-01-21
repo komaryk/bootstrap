@@ -1,0 +1,7 @@
+mixin achievements
+	ul.row.d-flex.justify-content-center
+		each achievement in achievements
+			li.col
+				a.text-center.p-4(href="#")
+					span.val= achievement.value
+					span.prop= achievement.prop
